@@ -14,7 +14,7 @@ El nombre de la aplicación es: Recetario Navideño
 
 Objetivo
 ---
-listar Recetas navideñas ingresadas por el usuario.
+Listar,Agregar,Almacenar recetas navideñas ingresadas por el usuario.
 
 Caracteristicas
 ---
@@ -52,8 +52,7 @@ Aca te muestro cual es el funcionamiento de mi aplicación a grandes rasgos.
         <table border="0">
             <tr>
                 <td><img src="https://github.com/AugustoBet4/ProyectoFinal_StudyJam/raw/master/img/menu.png" width="250"></td>
-                <td><img src="https://github.com/AugustoBet4/ProyectoFinal_StudyJam/raw/master/img/eliminar.gif" width="250"></td>
-                <td><img src="https://github.com/AugustoBet4/ProyectoFinal_StudyJam/raw/master/img/listado.gif" width="250"></td>
+                <td><img src="https://github.com/AugustoBet4/ProyectoFinal_StudyJam/raw/master/img/añadir.gif" width="250"></td>
                 <td><img src="https://github.com/AugustoBet4/ProyectoFinal_StudyJam/raw/master/img/detalle.gif" width="250"></td>
             </tr>
         </table>

@@ -20,17 +20,14 @@ public class MainActivity extends AppCompatActivity {
     public void mas(View view){
         Intent i=new Intent(this,AgregarActivity.class);
         startActivity(i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP));
-        finish();
     }
     public void ver(View view){
         Intent i = new Intent(this,ListActivity.class);
         startActivity(i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP));
-        finish();
     }
     public void eli(View view){
         Intent i = new Intent(this,EliminarActivity.class);
         startActivity(i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP));
-        finish();
     }
     public void verificaPermiso() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {

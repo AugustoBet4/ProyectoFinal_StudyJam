@@ -1,6 +1,5 @@
 package example.android.com.proyecto_navidad;
 
-import android.content.Intent;
 import android.net.Uri;
 import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
@@ -16,21 +15,6 @@ import java.io.InputStreamReader;
 public class DetalleActivity extends AppCompatActivity {
     TextView tvNombre,tvIngredientes,tvPreparacion;
     ImageView im;
-
-    @Override
-    public void onBackPressed() {
-        super.onBackPressed();
-        Intent i = new Intent(getApplicationContext(), MainActivity.class);
-        startActivity(i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP));
-        finish();
-
-    }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        finish();
-    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

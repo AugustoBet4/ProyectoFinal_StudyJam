@@ -21,19 +21,7 @@ public class ListActivity extends AppCompatActivity {
     private ListView list;
     private ArrayList<String> arrayListti;
     private ArrayList <String> arrayListim;
-    @Override
-    protected void onStop() {
-        super.onStart();
-        Intent i = new Intent(getApplicationContext(),MainActivity.class);
-        startActivity(i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP));
-        finish();
-    }
 
-    @Override
-    protected void onPause() {
-        super.onPause();
-        finish();
-    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
