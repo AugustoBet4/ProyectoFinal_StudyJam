@@ -82,6 +82,6 @@
             android:backgroundTint="#5D4037"
             android:textColor="@android:color/white"
             android:id="@+id/btSalir"
-            android:onClick="salir"/>
+            android:onClick="salir" />
     </LinearLayout>
 </LinearLayout>
